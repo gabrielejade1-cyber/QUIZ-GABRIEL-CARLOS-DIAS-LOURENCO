@@ -47,7 +47,6 @@ public class Main {
         return questoes;
     }
 
-    // Preenche a classe Questao disponibilizada pelo professor.
     private static Questao criarQuestao(String pergunta, String a, String b, String c,
                                         String d, String e, String correta) {
         Questao questao = new Questao();
